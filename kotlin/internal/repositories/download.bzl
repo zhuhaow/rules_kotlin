@@ -113,8 +113,9 @@ def kt_download_local_dev_dependencies():
     )
 
     maybe(
-        git_repository,
+        http_archive,
         name = "io_bazel_stardoc",
-        remote = "https://github.com/bazelbuild/stardoc.git",
-        tag = "0.4.0",
+        strip_prefix = "stardoc-0.4.0",
+        url = "https://github.com/bazelbuild/stardoc/archive/0.4.0.tar.gz",
+        sha256 = "6d07d18c15abb0f6d393adbd6075cd661a2219faab56a9517741f0fc755f6f3c",
     )

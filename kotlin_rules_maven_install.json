@@ -1,0 +1,2219 @@
+{
+    "dependency_tree": {
+        "conflict_resolution": {
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6"
+        },
+        "dependencies": [
+            {
+                "coord": "com.google.auto.service:auto-service-annotations:1.0-rc5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5.jar"
+                ],
+                "sha256": "61e29be1b2a154c3a089e50d8c3e2198243085bfdf8e010081c8831be01da28b"
+            },
+            {
+                "coord": "com.google.auto.service:auto-service-annotations:jar:sources:1.0-rc5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/service/auto-service-annotations/1.0-rc5/auto-service-annotations-1.0-rc5-sources.jar"
+                ],
+                "sha256": "d69c145d636e25743ae9b360f01f29609dd23b671259755064855006f1f20aed"
+            },
+            {
+                "coord": "com.google.auto.service:auto-service:1.0-rc5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5.jar",
+                "directDependencies": [
+                    "com.google.auto:auto-common:0.10",
+                    "com.google.auto.service:auto-service-annotations:1.0-rc5",
+                    "com.google.guava:guava:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.auto:auto-common:0.10",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "com.google.auto.service:auto-service-annotations:1.0-rc5",
+                    "org.checkerframework:checker-qual:2.5.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5.jar"
+                ],
+                "sha256": "d7e3ba5a373797949081dbea0f2634241a30cce9bc6e6f7ef8208547e83b6286"
+            },
+            {
+                "coord": "com.google.auto.service:auto-service:jar:sources:1.0-rc5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5-sources.jar",
+                "directDependencies": [
+                    "com.google.auto:auto-common:jar:sources:0.10",
+                    "com.google.auto.service:auto-service-annotations:jar:sources:1.0-rc5",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.auto.service:auto-service-annotations:jar:sources:1.0-rc5",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.auto:auto-common:jar:sources:0.10",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/service/auto-service/1.0-rc5/auto-service-1.0-rc5-sources.jar"
+                ],
+                "sha256": "ac72bd9ee0ded6cfdcf60f16d9842d7ca6134fe199b5c4c8ac4ffac68ed66275"
+            },
+            {
+                "coord": "com.google.auto.value:auto-value-annotations:1.6.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5.jar"
+                ],
+                "sha256": "3677f725f5b1b6cd6a4cc8aa8cf8f5fd2b76d170205cbdc3e9bfd9b58f934b3b"
+            },
+            {
+                "coord": "com.google.auto.value:auto-value-annotations:jar:sources:1.6.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/value/auto-value-annotations/1.6.5/auto-value-annotations-1.6.5-sources.jar"
+                ],
+                "sha256": "f55b4c071128b6887ca1aaccc3946c84ca27cea29d2df71ed333744451fbc7dc"
+            },
+            {
+                "coord": "com.google.auto.value:auto-value:1.6.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5.jar"
+                ],
+                "sha256": "ed5f69ef035b5367f1f0264f843b988908e36e155845880b29d79b7c8855adf3"
+            },
+            {
+                "coord": "com.google.auto.value:auto-value:jar:sources:1.6.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/value/auto-value/1.6.5/auto-value-1.6.5-sources.jar"
+                ],
+                "sha256": "1fb0b04edb49060628a0a32970d85116222117feb8e334862e543c0ec39b609e"
+            },
+            {
+                "coord": "com.google.auto:auto-common:0.10",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/auto-common/0.10/auto-common-0.10.jar",
+                "directDependencies": [
+                    "com.google.guava:guava:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "org.checkerframework:checker-qual:2.5.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/auto-common/0.10/auto-common-0.10.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/auto-common/0.10/auto-common-0.10.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/auto-common/0.10/auto-common-0.10.jar"
+                ],
+                "sha256": "b876b5fddaceeba7d359667f6c4fb8c6f8658da1ab902ffb79ec9a415deede5f"
+            },
+            {
+                "coord": "com.google.auto:auto-common:jar:sources:0.10",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/auto/auto-common/0.10/auto-common-0.10-sources.jar",
+                "directDependencies": [
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/auto-common/0.10/auto-common-0.10-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/auto/auto-common/0.10/auto-common-0.10-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/auto/auto-common/0.10/auto-common-0.10-sources.jar"
+                ],
+                "sha256": "e227d5aa864a9d59d8196540ee90995204f3458201138a638df9b0af609aef17"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:3.0.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                    "https://repo1.maven.org/maven2com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                ],
+                "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                ],
+                "sha256": "1c9e85e272d0708c6a591dc74828c71603053b48cc75ae83cce56912a2aa063b"
+            },
+            {
+                "coord": "com.google.code.gson:gson:2.7",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/code/gson/gson/2.7/gson-2.7.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/gson/gson/2.7/gson-2.7.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/gson/gson/2.7/gson-2.7.jar",
+                    "https://repo1.maven.org/maven2com/google/code/gson/gson/2.7/gson-2.7.jar"
+                ],
+                "sha256": "2d43eb5ea9e133d2ee2405cc14f5ee08951b8361302fdd93494a3a997b508d32"
+            },
+            {
+                "coord": "com.google.code.gson:gson:jar:sources:2.7",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/code/gson/gson/2.7/gson-2.7-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/gson/gson/2.7/gson-2.7-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/code/gson/gson/2.7/gson-2.7-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/code/gson/gson/2.7/gson-2.7-sources.jar"
+                ],
+                "sha256": "2d3220d5d936f0a26258aa3b358160741a4557e046a001251e5799c2db0f0d74"
+            },
+            {
+                "coord": "com.google.dagger:dagger-compiler:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26.jar",
+                "directDependencies": [
+                    "net.ltgt.gradle.incap:incap:0.2",
+                    "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.1.0",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.dagger:dagger:2.26",
+                    "com.google.dagger:dagger-producers:2.26",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.dagger:dagger-spi:2.26",
+                    "com.squareup:javapoet:1.11.1",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "javax.inject:javax.inject:1",
+                    "javax.annotation:jsr250-api:1.0",
+                    "com.google.googlejavaformat:google-java-format:1.5",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "net.ltgt.gradle.incap:incap:0.2",
+                    "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.1.0",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.dagger:dagger:2.26",
+                    "com.google.dagger:dagger-producers:2.26",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "com.google.errorprone:javac-shaded:9-dev-r4023-3",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71",
+                    "com.google.dagger:dagger-spi:2.26",
+                    "com.squareup:javapoet:1.11.1",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "javax.inject:javax.inject:1",
+                    "javax.annotation:jsr250-api:1.0",
+                    "com.google.googlejavaformat:google-java-format:1.5",
+                    "org.jetbrains:annotations:13.0",
+                    "org.checkerframework:checker-qual:2.5.2",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26.jar"
+                ],
+                "sha256": "b6c47d7854b02608de0855a8316589b9dffe7a67968cbccacfe68a4482771043"
+            },
+            {
+                "coord": "com.google.dagger:dagger-compiler:jar:sources:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlinx:kotlinx-metadata-jvm:jar:sources:0.1.0",
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.googlejavaformat:google-java-format:jar:sources:1.5",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "com.google.dagger:dagger-spi:jar:sources:2.26",
+                    "com.squareup:javapoet:jar:sources:1.11.1",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.dagger:dagger-producers:jar:sources:2.26",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "net.ltgt.gradle.incap:incap:jar:sources:0.2",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.dagger:dagger:jar:sources:2.26",
+                    "javax.annotation:jsr250-api:jar:sources:1.0"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlinx:kotlinx-metadata-jvm:jar:sources:0.1.0",
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "com.google.errorprone:javac-shaded:jar:sources:9-dev-r4023-3",
+                    "com.google.googlejavaformat:google-java-format:jar:sources:1.5",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.dagger:dagger-spi:jar:sources:2.26",
+                    "com.squareup:javapoet:jar:sources:1.11.1",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.dagger:dagger-producers:jar:sources:2.26",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "net.ltgt.gradle.incap:incap:jar:sources:0.2",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.dagger:dagger:jar:sources:2.26",
+                    "javax.annotation:jsr250-api:jar:sources:1.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26-sources.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger-compiler/2.26/dagger-compiler-2.26-sources.jar"
+                ],
+                "sha256": "0c2ee8af2b0ae70f6105286b5506f1061d734c6a35361841a116fdc4744c3774"
+            },
+            {
+                "coord": "com.google.dagger:dagger-producers:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger-producers/2.26/dagger-producers-2.26.jar",
+                "directDependencies": [
+                    "com.google.dagger:dagger:2.26",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "javax.inject:javax.inject:1",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.dagger:dagger:2.26",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "javax.inject:javax.inject:1",
+                    "org.checkerframework:checker-qual:2.5.2",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger-producers/2.26/dagger-producers-2.26.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger-producers/2.26/dagger-producers-2.26.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger-producers/2.26/dagger-producers-2.26.jar"
+                ],
+                "sha256": "55b516b552ff359a7d6f29cac899a8d0542f15b92e639ee770f574f85df8d80a"
+            },
+            {
+                "coord": "com.google.dagger:dagger-producers:jar:sources:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger-producers/2.26/dagger-producers-2.26-sources.jar",
+                "directDependencies": [
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.dagger:dagger:jar:sources:2.26"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.dagger:dagger:jar:sources:2.26"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger-producers/2.26/dagger-producers-2.26-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger-producers/2.26/dagger-producers-2.26-sources.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger-producers/2.26/dagger-producers-2.26-sources.jar"
+                ],
+                "sha256": "068a467c70ce474c442a44c86fe5e7ff86de3467180a634193321bd34c69e30c"
+            },
+            {
+                "coord": "com.google.dagger:dagger-spi:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger-spi/2.26/dagger-spi-2.26.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.dagger:dagger:2.26",
+                    "com.google.dagger:dagger-producers:2.26",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.squareup:javapoet:1.11.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "javax.inject:javax.inject:1"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.dagger:dagger:2.26",
+                    "com.google.dagger:dagger-producers:2.26",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "com.squareup:javapoet:1.11.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "javax.inject:javax.inject:1",
+                    "org.checkerframework:checker-qual:2.5.2",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger-spi/2.26/dagger-spi-2.26.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger-spi/2.26/dagger-spi-2.26.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger-spi/2.26/dagger-spi-2.26.jar"
+                ],
+                "sha256": "8adc750191bf065a852983fc15b5751e7734e4b693b4bffddcba63bc5d371911"
+            },
+            {
+                "coord": "com.google.dagger:dagger-spi:jar:sources:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger-spi/2.26/dagger-spi-2.26-sources.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "com.squareup:javapoet:jar:sources:1.11.1",
+                    "com.google.dagger:dagger-producers:jar:sources:2.26",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.dagger:dagger:jar:sources:2.26"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.squareup:javapoet:jar:sources:1.11.1",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.dagger:dagger-producers:jar:sources:2.26",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.dagger:dagger:jar:sources:2.26"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger-spi/2.26/dagger-spi-2.26-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger-spi/2.26/dagger-spi-2.26-sources.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger-spi/2.26/dagger-spi-2.26-sources.jar"
+                ],
+                "sha256": "a93fcb842b92f23c87455cf51a7e0732cf9de053561c572e486017d55f8ca572"
+            },
+            {
+                "coord": "com.google.dagger:dagger:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger/2.26/dagger-2.26.jar",
+                "directDependencies": [
+                    "javax.inject:javax.inject:1"
+                ],
+                "dependencies": [
+                    "javax.inject:javax.inject:1"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger/2.26/dagger-2.26.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger/2.26/dagger-2.26.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger/2.26/dagger-2.26.jar"
+                ],
+                "sha256": "f7553a84ce19751c645bd61a29360c15ec82540d706e5fca4e427f0907eec7e6"
+            },
+            {
+                "coord": "com.google.dagger:dagger:jar:sources:2.26",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/dagger/dagger/2.26/dagger-2.26-sources.jar",
+                "directDependencies": [
+                    "javax.inject:javax.inject:jar:sources:1"
+                ],
+                "dependencies": [
+                    "javax.inject:javax.inject:jar:sources:1"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/dagger/dagger/2.26/dagger-2.26-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//com/google/dagger/dagger/2.26/dagger-2.26-sources.jar",
+                    "https://repo1.maven.org/maven2/com/google/dagger/dagger/2.26/dagger-2.26-sources.jar"
+                ],
+                "sha256": "05539e2fef2e6b5961dd438b0968e0550b1d69309e9a7f12ff995a51004e4f3c"
+            },
+            {
+                "coord": "com.google.errorprone:error_prone_annotations:2.3.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1.jar",
+                    "https://repo1.maven.org/maven2com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1.jar"
+                ],
+                "sha256": "10a5949aa0f95c8de4fd47edfe20534d2acefd8c224f8afea1f607e112816120"
+            },
+            {
+                "coord": "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/errorprone/error_prone_annotations/2.3.1/error_prone_annotations-2.3.1-sources.jar"
+                ],
+                "sha256": "0fe3db0b12e624afd1dbeba85421fa58c362f9caf55f1869d7683b8744c53616"
+            },
+            {
+                "coord": "com.google.errorprone:javac-shaded:9-dev-r4023-3",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.jar",
+                    "https://repo1.maven.org/maven2com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.jar"
+                ],
+                "sha256": "65bfccf60986c47fbc17c9ebab0be626afc41741e0a6ec7109e0768817a36f30"
+            },
+            {
+                "coord": "com.google.errorprone:javac-shaded:jar:sources:9-dev-r4023-3",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3-sources.jar"
+                ],
+                "sha256": "cf0fde1aad77ac6e0e2d36a9f9179193ae1707088ba00ffa91fcfb5269304a6a"
+            },
+            {
+                "coord": "com.google.googlejavaformat:google-java-format:1.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5.jar",
+                "directDependencies": [
+                    "com.google.errorprone:javac-shaded:9-dev-r4023-3",
+                    "com.google.guava:guava:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "com.google.errorprone:javac-shaded:9-dev-r4023-3",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "org.checkerframework:checker-qual:2.5.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5.jar",
+                    "https://repo1.maven.org/maven2com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5.jar"
+                ],
+                "sha256": "aa19ad7850fb85178aa22f2fddb163b84d6ce4d0035872f30d4408195ca1144e"
+            },
+            {
+                "coord": "com.google.googlejavaformat:google-java-format:jar:sources:1.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5-sources.jar",
+                "directDependencies": [
+                    "com.google.errorprone:javac-shaded:jar:sources:9-dev-r4023-3",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "com.google.errorprone:javac-shaded:jar:sources:9-dev-r4023-3",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/googlejavaformat/google-java-format/1.5/google-java-format-1.5-sources.jar"
+                ],
+                "sha256": "c204b15b3834128d335f17213f7e621ddb2cc5bfff5b8dd035cd1f2affb7fa8f"
+            },
+            {
+                "coord": "com.google.guava:failureaccess:1.0.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+                    "https://repo1.maven.org/maven2com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+                ],
+                "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+            },
+            {
+                "coord": "com.google.guava:failureaccess:jar:sources:1.0.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                ],
+                "sha256": "092346eebbb1657b51aa7485a246bf602bb464cc0b0e2e1c7e7201fadce1e98f"
+            },
+            {
+                "coord": "com.google.guava:guava:27.1-jre",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar",
+                "directDependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "org.checkerframework:checker-qual:2.5.2"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "org.checkerframework:checker-qual:2.5.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar",
+                    "https://repo1.maven.org/maven2com/google/guava/guava/27.1-jre/guava-27.1-jre.jar"
+                ],
+                "sha256": "4a5aa70cc968a4d137e599ad37553e5cfeed2265e8c193476d7119036c536fe7"
+            },
+            {
+                "coord": "com.google.guava:guava:jar:sources:27.1-jre",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar"
+                ],
+                "sha256": "9de05c573971cedfcd53fb85fc7a58a5f453053026a9bf18594cffc79a1d6874"
+            },
+            {
+                "coord": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                    "https://repo1.maven.org/maven2com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                ],
+                "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+            },
+            {
+                "coord": "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                "file": null,
+                "directDependencies": [],
+                "dependencies": []
+            },
+            {
+                "coord": "com.google.j2objc:j2objc-annotations:1.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+                    "https://repo1.maven.org/maven2com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"
+                ],
+                "sha256": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6"
+            },
+            {
+                "coord": "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar"
+                ],
+                "sha256": "2cd9022a77151d0b574887635cdfcdf3b78155b602abc89d7f8e62aba55cfb4f"
+            },
+            {
+                "coord": "com.google.protobuf:protobuf-java-util:3.6.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0.jar",
+                "directDependencies": [
+                    "com.google.code.gson:gson:2.7",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.protobuf:protobuf-java:3.6.0"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.protobuf:protobuf-java:3.6.0",
+                    "com.google.code.gson:gson:2.7",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "org.checkerframework:checker-qual:2.5.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0.jar",
+                    "https://repo1.maven.org/maven2com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0.jar"
+                ],
+                "sha256": "ad7f8d67674906ce88077fbb233b427b7068991a61af42ce9301990bdf8f3605"
+            },
+            {
+                "coord": "com.google.protobuf:protobuf-java-util:jar:sources:3.6.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0-sources.jar",
+                "directDependencies": [
+                    "com.google.code.gson:gson:jar:sources:2.7",
+                    "com.google.guava:guava:jar:sources:27.1-jre",
+                    "com.google.protobuf:protobuf-java:jar:sources:3.6.0"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.protobuf:protobuf-java:jar:sources:3.6.0",
+                    "com.google.code.gson:gson:jar:sources:2.7",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/protobuf/protobuf-java-util/3.6.0/protobuf-java-util-3.6.0-sources.jar"
+                ],
+                "sha256": "a2959842caed6f0b1dbecfaf0e73ef03117416f967c0532c32d092b6e2b98d60"
+            },
+            {
+                "coord": "com.google.protobuf:protobuf-java:3.6.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0.jar",
+                    "https://repo1.maven.org/maven2com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0.jar"
+                ],
+                "sha256": "8c8a65be83e75ccdcaa21417e303025f1708ea01e8c0a05d6c770e64b6c09ea1"
+            },
+            {
+                "coord": "com.google.protobuf:protobuf-java:jar:sources:3.6.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/protobuf/protobuf-java/3.6.0/protobuf-java-3.6.0-sources.jar"
+                ],
+                "sha256": "88411bb0333725b27bf53ed4d95785f6f4b541e22e1e27c60c2be8b3115fc5c4"
+            },
+            {
+                "coord": "com.google.truth:truth:0.45",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/truth/truth/0.45/truth-0.45.jar",
+                "directDependencies": [
+                    "com.google.auto.value:auto-value-annotations:1.6.5",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "junit:junit:4.13-beta-3",
+                    "com.googlecode.java-diff-utils:diffutils:1.3.0",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.auto.value:auto-value-annotations:1.6.5",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.hamcrest:hamcrest-core:1.3",
+                    "com.google.guava:guava:27.1-jre",
+                    "com.google.errorprone:error_prone_annotations:2.3.1",
+                    "junit:junit:4.13-beta-3",
+                    "com.googlecode.java-diff-utils:diffutils:1.3.0",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.j2objc:j2objc-annotations:1.1",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "org.checkerframework:checker-qual:2.5.2",
+                    "org.checkerframework:checker-compat-qual:2.5.5"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/truth/truth/0.45/truth-0.45.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/truth/truth/0.45/truth-0.45.jar",
+                    "https://repo1.maven.org/maven2com/google/truth/truth/0.45/truth-0.45.jar"
+                ],
+                "sha256": "0f7dced2a16e55a77e44fc3ff9c5be98d4bf4bb30abc18d78ffd735df950a69f"
+            },
+            {
+                "coord": "com.google.truth:truth:jar:sources:0.45",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/google/truth/truth/0.45/truth-0.45-sources.jar",
+                "directDependencies": [
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "com.googlecode.java-diff-utils:diffutils:jar:sources:1.3.0",
+                    "com.google.auto.value:auto-value-annotations:jar:sources:1.6.5",
+                    "junit:junit:jar:sources:4.13-beta-3",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.1",
+                    "com.googlecode.java-diff-utils:diffutils:jar:sources:1.3.0",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "org.hamcrest:hamcrest-core:jar:sources:1.3",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.1",
+                    "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                    "com.google.auto.value:auto-value-annotations:jar:sources:1.6.5",
+                    "junit:junit:jar:sources:4.13-beta-3",
+                    "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.guava:guava:jar:sources:27.1-jre"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/google/truth/truth/0.45/truth-0.45-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/google/truth/truth/0.45/truth-0.45-sources.jar",
+                    "https://repo1.maven.org/maven2com/google/truth/truth/0.45/truth-0.45-sources.jar"
+                ],
+                "sha256": "42c9b62ded52cd85a664217e116fd425f0e4c949b96c8ccde4c4cd0bb0ebe2de"
+            },
+            {
+                "coord": "com.googlecode.java-diff-utils:diffutils:1.3.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar",
+                    "https://repo1.maven.org/maven2com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar"
+                ],
+                "sha256": "61ba4dc49adca95243beaa0569adc2a23aedb5292ae78aa01186fa782ebdc5c2"
+            },
+            {
+                "coord": "com.googlecode.java-diff-utils:diffutils:jar:sources:1.3.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0-sources.jar",
+                    "https://repo1.maven.org/maven2com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0-sources.jar"
+                ],
+                "sha256": "7f4d40e97827f8a3285c3e47e8d28797ecfd45fb2ff94bd12cb6a83760a5f427"
+            },
+            {
+                "coord": "com.squareup:javapoet:1.11.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar",
+                    "https://repo1.maven.org/maven2com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar"
+                ],
+                "sha256": "9cbf2107be499ec6e95afd36b58e3ca122a24166cdd375732e51267d64058e90"
+            },
+            {
+                "coord": "com.squareup:javapoet:jar:sources:1.11.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/com/squareup/javapoet/1.11.1/javapoet-1.11.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/com/squareup/javapoet/1.11.1/javapoet-1.11.1-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/com/squareup/javapoet/1.11.1/javapoet-1.11.1-sources.jar",
+                    "https://repo1.maven.org/maven2com/squareup/javapoet/1.11.1/javapoet-1.11.1-sources.jar"
+                ],
+                "sha256": "63d3187d924582b1afe9eb171e725d27a7e15603513890de0f8804a7fc07e9ac"
+            },
+            {
+                "coord": "javax.annotation:javax.annotation-api:1.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                    "https://repo1.maven.org/maven2javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+                ],
+                "sha256": "e04ba5195bcd555dc95650f7cc614d151e4bcd52d29a10b8aa2197f3ab89ab9b"
+            },
+            {
+                "coord": "javax.annotation:javax.annotation-api:jar:sources:1.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar",
+                    "https://repo1.maven.org/maven2javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar"
+                ],
+                "sha256": "128971e52e0d84a66e3b6e049dab8ad7b2c58b7e1ad37fa2debd3d40c2947b95"
+            },
+            {
+                "coord": "javax.annotation:jsr250-api:1.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar",
+                    "https://repo1.maven.org/maven2javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"
+                ],
+                "sha256": "a1a922d0d9b6d183ed3800dfac01d1e1eb159f0e8c6f94736931c1def54a941f"
+            },
+            {
+                "coord": "javax.annotation:jsr250-api:jar:sources:1.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar",
+                    "https://repo1.maven.org/maven2javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar"
+                ],
+                "sha256": "025c47d76c60199381be07012a0c5f9e74661aac5bd67f5aec847741c5b7f838"
+            },
+            {
+                "coord": "javax.enterprise:cdi-api:1.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar",
+                "directDependencies": [
+                    "javax.annotation:jsr250-api:1.0",
+                    "javax.inject:javax.inject:1"
+                ],
+                "dependencies": [
+                    "javax.annotation:jsr250-api:1.0",
+                    "javax.inject:javax.inject:1"
+                ],
+                "exclusions": [
+                    "javax.el:el-api",
+                    "org.jboss.ejb3:jboss-ejb3-api",
+                    "org.jboss.interceptor:jboss-interceptor-api"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar",
+                    "https://repo1.maven.org/maven2javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar"
+                ],
+                "sha256": "1f10b2204cc77c919301f20ff90461c3df1b6e6cb148be1c2d22107f4851d423"
+            },
+            {
+                "coord": "javax.enterprise:cdi-api:jar:sources:1.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar",
+                "directDependencies": [
+                    "javax.annotation:jsr250-api:jar:sources:1.0",
+                    "javax.inject:javax.inject:jar:sources:1"
+                ],
+                "dependencies": [
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "javax.annotation:jsr250-api:jar:sources:1.0"
+                ],
+                "exclusions": [
+                    "javax.el:el-api",
+                    "org.jboss.ejb3:jboss-ejb3-api",
+                    "org.jboss.interceptor:jboss-interceptor-api"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar",
+                    "https://repo1.maven.org/maven2javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar"
+                ],
+                "sha256": "0e7c351dfe05759f84dc3eddaac1da4ef72578b494b53338829d34b12271374f"
+            },
+            {
+                "coord": "javax.inject:javax.inject:1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/inject/javax.inject/1/javax.inject-1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/inject/javax.inject/1/javax.inject-1.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/inject/javax.inject/1/javax.inject-1.jar",
+                    "https://repo1.maven.org/maven2javax/inject/javax.inject/1/javax.inject-1.jar"
+                ],
+                "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+            },
+            {
+                "coord": "javax.inject:javax.inject:jar:sources:1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/javax/inject/javax.inject/1/javax.inject-1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/javax/inject/javax.inject/1/javax.inject-1-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/javax/inject/javax.inject/1/javax.inject-1-sources.jar",
+                    "https://repo1.maven.org/maven2javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                ],
+                "sha256": "c4b87ee2911c139c3daf498a781967f1eb2e75bc1a8529a2e7b328a15d0e433e"
+            },
+            {
+                "coord": "junit:junit:4.13-beta-3",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar",
+                "directDependencies": [
+                    "org.hamcrest:hamcrest-core:1.3"
+                ],
+                "dependencies": [
+                    "org.hamcrest:hamcrest-core:1.3"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar",
+                    "https://repo1.maven.org/maven2junit/junit/4.13-beta-3/junit-4.13-beta-3.jar"
+                ],
+                "sha256": "ea84a0558309da51dbd9d958917cd27b0fc42e2b5940942fd4c5df527e3356f4"
+            },
+            {
+                "coord": "junit:junit:jar:sources:4.13-beta-3",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/junit/junit/4.13-beta-3/junit-4.13-beta-3-sources.jar",
+                "directDependencies": [
+                    "org.hamcrest:hamcrest-core:jar:sources:1.3"
+                ],
+                "dependencies": [
+                    "org.hamcrest:hamcrest-core:jar:sources:1.3"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/junit/junit/4.13-beta-3/junit-4.13-beta-3-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/junit/junit/4.13-beta-3/junit-4.13-beta-3-sources.jar",
+                    "https://repo1.maven.org/maven2junit/junit/4.13-beta-3/junit-4.13-beta-3-sources.jar"
+                ],
+                "sha256": "e18a61e69e4899942c91b7e2d5c68f65e9aabc303036f878cb341dea31194ac4"
+            },
+            {
+                "coord": "net.java.dev.jna:jna-platform:5.5.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
+                "directDependencies": [
+                    "net.java.dev.jna:jna:5.5.0"
+                ],
+                "dependencies": [
+                    "net.java.dev.jna:jna:5.5.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
+                    "https://repo1.maven.org/maven2net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar"
+                ],
+                "sha256": "24d81621f82ac29fcdd9a74116031f5907a2343158e616f4573bbfa2434ae0d5"
+            },
+            {
+                "coord": "net.java.dev.jna:jna-platform:jar:sources:5.5.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0-sources.jar",
+                "directDependencies": [
+                    "net.java.dev.jna:jna:jar:sources:5.5.0"
+                ],
+                "dependencies": [
+                    "net.java.dev.jna:jna:jar:sources:5.5.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0-sources.jar",
+                    "https://repo1.maven.org/maven2net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0-sources.jar"
+                ],
+                "sha256": "c34fb8cc63385063cb38e95f6cf980319c4698bae176660c4b800688b3a9795f"
+            },
+            {
+                "coord": "net.java.dev.jna:jna:5.5.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
+                    "https://repo1.maven.org/maven2net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar"
+                ],
+                "sha256": "b308faebfe4ed409de8410e0a632d164b2126b035f6eacff968d3908cafb4d9e"
+            },
+            {
+                "coord": "net.java.dev.jna:jna:jar:sources:5.5.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar",
+                    "https://repo1.maven.org/maven2net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar"
+                ],
+                "sha256": "7bd9566b341aa508bc824485e7bbd45222b9f1422d266cf53543600f043a14fe"
+            },
+            {
+                "coord": "net.ltgt.gradle.incap:incap:0.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/net/ltgt/gradle/incap/incap/0.2/incap-0.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/net/ltgt/gradle/incap/incap/0.2/incap-0.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/net/ltgt/gradle/incap/incap/0.2/incap-0.2.jar",
+                    "https://repo1.maven.org/maven2net/ltgt/gradle/incap/incap/0.2/incap-0.2.jar"
+                ],
+                "sha256": "b625b9806b0f1e4bc7a2e3457119488de3cd57ea20feedd513db070a573a4ffd"
+            },
+            {
+                "coord": "net.ltgt.gradle.incap:incap:jar:sources:0.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/net/ltgt/gradle/incap/incap/0.2/incap-0.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/net/ltgt/gradle/incap/incap/0.2/incap-0.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/net/ltgt/gradle/incap/incap/0.2/incap-0.2-sources.jar",
+                    "https://repo1.maven.org/maven2net/ltgt/gradle/incap/incap/0.2/incap-0.2-sources.jar"
+                ],
+                "sha256": "15c3cd213a214c94ef7ed262e00ab10c75d1680b0b9203b47801e7068de1cf5c"
+            },
+            {
+                "coord": "org.apache.ant:ant-launcher:1.9.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar",
+                    "https://repo1.maven.org/maven2org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar"
+                ],
+                "sha256": "02cbe010ceec4acab059acfa48a16dc7b7c430200f2561b6b7c75bcab48f4044"
+            },
+            {
+                "coord": "org.apache.ant:ant-launcher:jar:sources:1.9.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9-sources.jar"
+                ],
+                "sha256": "ba0f51943f94c3a107f1aff983f180e08e3bc2093643feacfa6d1af025190ae8"
+            },
+            {
+                "coord": "org.apache.ant:ant:1.9.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant/1.9.9/ant-1.9.9.jar",
+                "directDependencies": [
+                    "org.apache.ant:ant-launcher:1.9.9"
+                ],
+                "dependencies": [
+                    "org.apache.ant:ant-launcher:1.9.9"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant/1.9.9/ant-1.9.9.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant/1.9.9/ant-1.9.9.jar",
+                    "https://repo1.maven.org/maven2org/apache/ant/ant/1.9.9/ant-1.9.9.jar"
+                ],
+                "sha256": "d81254bcb2e170c9ea16cd418050f3340da1736380a02415c8ddda9a0a0b8a1b"
+            },
+            {
+                "coord": "org.apache.ant:ant:jar:sources:1.9.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant/1.9.9/ant-1.9.9-sources.jar",
+                "directDependencies": [
+                    "org.apache.ant:ant-launcher:jar:sources:1.9.9"
+                ],
+                "dependencies": [
+                    "org.apache.ant:ant-launcher:jar:sources:1.9.9"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant/1.9.9/ant-1.9.9-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/ant/ant/1.9.9/ant-1.9.9-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/ant/ant/1.9.9/ant-1.9.9-sources.jar"
+                ],
+                "sha256": "369708c550831c8a1a4c1a333e51db30ad69bbcd674f8545b6bce6a4290a9f5e"
+            },
+            {
+                "coord": "org.apache.commons:commons-lang3:3.4",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "org.apache.maven.wagon:wagon-provider-api"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+                    "https://repo1.maven.org/maven2org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+                ],
+                "sha256": "734c8356420cc8e30c795d64fd1fcd5d44ea9d90342a2cc3262c5158fbc6d98b"
+            },
+            {
+                "coord": "org.apache.commons:commons-lang3:3.4",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+                    "https://repo1.maven.org/maven2org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+                ],
+                "sha256": "734c8356420cc8e30c795d64fd1fcd5d44ea9d90342a2cc3262c5158fbc6d98b"
+            },
+            {
+                "coord": "org.apache.commons:commons-lang3:jar:sources:3.4",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "org.apache.maven.wagon:wagon-provider-api"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"
+                ],
+                "sha256": "4709f16a9e0f8fd83ae155083d63044e23045aac8f6f0183a2db09f492491b12"
+            },
+            {
+                "coord": "org.apache.commons:commons-lang3:jar:sources:3.4",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"
+                ],
+                "sha256": "4709f16a9e0f8fd83ae155083d63044e23045aac8f6f0183a2db09f492491b12"
+            },
+            {
+                "coord": "org.apache.maven:maven-artifact:3.3.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar",
+                "directDependencies": [
+                    "org.apache.commons:commons-lang3:3.4",
+                    "org.codehaus.plexus:plexus-utils:3.0.22"
+                ],
+                "dependencies": [
+                    "org.apache.commons:commons-lang3:3.4",
+                    "org.codehaus.plexus:plexus-utils:3.0.22"
+                ],
+                "exclusions": [
+                    "org.apache.maven.wagon:wagon-provider-api"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar",
+                    "https://repo1.maven.org/maven2org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar"
+                ],
+                "sha256": "1f702928f2233c6ecdf308fbd8f2932ea287c7062183d3c8364b0db7e9c4445d"
+            },
+            {
+                "coord": "org.apache.maven:maven-artifact:jar:sources:3.3.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar",
+                "directDependencies": [
+                    "org.apache.commons:commons-lang3:jar:sources:3.4",
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22"
+                ],
+                "dependencies": [
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                    "org.apache.commons:commons-lang3:jar:sources:3.4"
+                ],
+                "exclusions": [
+                    "org.apache.maven.wagon:wagon-provider-api"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar"
+                ],
+                "sha256": "8985ed687dc682ff0fef32fb449005cc02eb47f860e36bf8b38b3be3cfa81ef6"
+            },
+            {
+                "coord": "org.apache.maven:maven-model:3.3.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar",
+                "directDependencies": [
+                    "org.apache.commons:commons-lang3:3.4",
+                    "org.codehaus.plexus:plexus-utils:3.0.22"
+                ],
+                "dependencies": [
+                    "org.apache.commons:commons-lang3:3.4",
+                    "org.codehaus.plexus:plexus-utils:3.0.22"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar",
+                    "https://repo1.maven.org/maven2org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar"
+                ],
+                "sha256": "15abde67fa7ea1e573e1f68c34921e995f0971351aaf1fb96790688ff510efcd"
+            },
+            {
+                "coord": "org.apache.maven:maven-model:jar:sources:3.3.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar",
+                "directDependencies": [
+                    "org.apache.commons:commons-lang3:jar:sources:3.4",
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22"
+                ],
+                "dependencies": [
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                    "org.apache.commons:commons-lang3:jar:sources:3.4"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar"
+                ],
+                "sha256": "9caac5f1fafe59db3b68f3c78dc6f3511720e59b190d3c1de939ce4fefc1bea6"
+            },
+            {
+                "coord": "org.apache.maven:maven-plugin-api:3.3.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar",
+                "directDependencies": [
+                    "org.apache.maven:maven-artifact:3.3.9",
+                    "org.apache.maven:maven-model:3.3.9",
+                    "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.2"
+                ],
+                "dependencies": [
+                    "org.apache.maven:maven-model:3.3.9",
+                    "org.apache.commons:commons-lang3:3.4",
+                    "javax.enterprise:cdi-api:1.0",
+                    "org.codehaus.plexus:plexus-component-annotations:1.5.5",
+                    "org.apache.maven:maven-artifact:3.3.9",
+                    "org.codehaus.plexus:plexus-utils:3.0.22",
+                    "javax.inject:javax.inject:1",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2",
+                    "org.codehaus.plexus:plexus-classworlds:2.5.2",
+                    "javax.annotation:jsr250-api:1.0",
+                    "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar",
+                    "https://repo1.maven.org/maven2org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar"
+                ],
+                "sha256": "14cae18fd7125901b12fc914e30ea26ad9bd43dbd399dd6e8fcbc6c754ef2c9c"
+            },
+            {
+                "coord": "org.apache.maven:maven-plugin-api:jar:sources:3.3.9",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar",
+                "directDependencies": [
+                    "org.apache.maven:maven-artifact:jar:sources:3.3.9",
+                    "org.apache.maven:maven-model:jar:sources:3.3.9",
+                    "org.eclipse.sisu:org.eclipse.sisu.plexus:jar:sources:0.3.2"
+                ],
+                "dependencies": [
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                    "org.codehaus.plexus:plexus-classworlds:jar:sources:2.5.2",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:jar:sources:0.3.2",
+                    "org.codehaus.plexus:plexus-component-annotations:jar:sources:1.5.5",
+                    "org.apache.maven:maven-model:jar:sources:3.3.9",
+                    "org.apache.commons:commons-lang3:jar:sources:3.4",
+                    "javax.enterprise:cdi-api:jar:sources:1.0",
+                    "org.apache.maven:maven-artifact:jar:sources:3.3.9",
+                    "javax.annotation:jsr250-api:jar:sources:1.0",
+                    "org.eclipse.sisu:org.eclipse.sisu.plexus:jar:sources:0.3.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar",
+                    "https://repo1.maven.org/maven2org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar"
+                ],
+                "sha256": "5f26fcbf2634be46e9b55a7c95d92e916fc14c55aca96ad29384a0912476bb9e"
+            },
+            {
+                "coord": "org.checkerframework:checker-compat-qual:2.5.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar",
+                    "https://repo1.maven.org/maven2org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar"
+                ],
+                "sha256": "11d134b245e9cacc474514d2d66b5b8618f8039a1465cdc55bbc0b34e0008b7a"
+            },
+            {
+                "coord": "org.checkerframework:checker-compat-qual:jar:sources:2.5.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5-sources.jar",
+                    "https://repo1.maven.org/maven2org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5-sources.jar"
+                ],
+                "sha256": "7c63a4a46b2ef903f941aeac63da87dd345be3243b472796aa945fa715bf3ca9"
+            },
+            {
+                "coord": "org.checkerframework:checker-qual:2.5.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar",
+                    "https://repo1.maven.org/maven2org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar"
+                ],
+                "sha256": "64b02691c8b9d4e7700f8ee2e742dce7ea2c6e81e662b7522c9ee3bf568c040a"
+            },
+            {
+                "coord": "org.checkerframework:checker-qual:jar:sources:2.5.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar",
+                    "https://repo1.maven.org/maven2org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar"
+                ],
+                "sha256": "821c5c63a6f156a3bb498c5bbb613580d9d8f4134131a5627d330fc4018669d2"
+            },
+            {
+                "coord": "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar"
+                ],
+                "sha256": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53"
+            },
+            {
+                "coord": "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar"
+                ],
+                "sha256": "2571474a676f775a8cdd15fb9b1da20c4c121ed7f42a5d93fca0e7b6e2015b40"
+            },
+            {
+                "coord": "org.codehaus.plexus:plexus-classworlds:2.5.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar"
+                ],
+                "sha256": "b2931d41740490a8d931cbe0cfe9ac20deb66cca606e679f52522f7f534c9fd7"
+            },
+            {
+                "coord": "org.codehaus.plexus:plexus-classworlds:jar:sources:2.5.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar"
+                ],
+                "sha256": "d087c4c0ff02b035111bb72c72603b2851d126c43da39cc3c73ff45139125bec"
+            },
+            {
+                "coord": "org.codehaus.plexus:plexus-component-annotations:1.5.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar"
+                ],
+                "sha256": "4df7a6a7be64b35bbccf60b5c115697f9ea3421d22674ae67135dde375fcca1f"
+            },
+            {
+                "coord": "org.codehaus.plexus:plexus-component-annotations:jar:sources:1.5.5",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar"
+                ],
+                "sha256": "527768d357304e0ad56b74ca77f27ba28b4a456680450ef45a30bfaf613469e6"
+            },
+            {
+                "coord": "org.codehaus.plexus:plexus-utils:3.0.22",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar"
+                ],
+                "sha256": "0f31c44b275f87e56d46a582ce96d03b9e2ab344cf87c4e268b34d3ad046beab"
+            },
+            {
+                "coord": "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar",
+                    "https://repo1.maven.org/maven2org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar"
+                ],
+                "sha256": "8fb619ac58aaa2a27f9cefce866a9689d41e15a120c2efe0f781b6bcad88caf3"
+            },
+            {
+                "coord": "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar",
+                    "https://repo1.maven.org/maven2org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar"
+                ],
+                "sha256": "66e87705a818da44eb080a7bb1fc431de987754b4f92aa85f69991bfc677d40d"
+            },
+            {
+                "coord": "org.eclipse.sisu:org.eclipse.sisu.inject:jar:sources:0.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2-sources.jar",
+                    "https://repo1.maven.org/maven2org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2-sources.jar"
+                ],
+                "sha256": "739d7228920a97892b9c6b6e4d16799930e8d2439543e71fa7a7c849a39cc8a1"
+            },
+            {
+                "coord": "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar",
+                "directDependencies": [
+                    "javax.enterprise:cdi-api:1.0",
+                    "org.codehaus.plexus:plexus-component-annotations:1.5.5",
+                    "org.codehaus.plexus:plexus-utils:3.0.22",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2",
+                    "org.codehaus.plexus:plexus-classworlds:2.5.2"
+                ],
+                "dependencies": [
+                    "javax.enterprise:cdi-api:1.0",
+                    "org.codehaus.plexus:plexus-component-annotations:1.5.5",
+                    "org.codehaus.plexus:plexus-utils:3.0.22",
+                    "javax.inject:javax.inject:1",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2",
+                    "org.codehaus.plexus:plexus-classworlds:2.5.2",
+                    "javax.annotation:jsr250-api:1.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar",
+                    "https://repo1.maven.org/maven2org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar"
+                ],
+                "sha256": "f5cfe0d88e8276971db4ecff0e4186d5f2ec5fdb1b6bb8c2f359fdc4b43eb8b2"
+            },
+            {
+                "coord": "org.eclipse.sisu:org.eclipse.sisu.plexus:jar:sources:0.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2-sources.jar",
+                "directDependencies": [
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                    "org.codehaus.plexus:plexus-classworlds:jar:sources:2.5.2",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:jar:sources:0.3.2",
+                    "org.codehaus.plexus:plexus-component-annotations:jar:sources:1.5.5",
+                    "javax.enterprise:cdi-api:jar:sources:1.0"
+                ],
+                "dependencies": [
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                    "org.codehaus.plexus:plexus-classworlds:jar:sources:2.5.2",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:jar:sources:0.3.2",
+                    "org.codehaus.plexus:plexus-component-annotations:jar:sources:1.5.5",
+                    "javax.enterprise:cdi-api:jar:sources:1.0",
+                    "javax.annotation:jsr250-api:jar:sources:1.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2-sources.jar",
+                    "https://repo1.maven.org/maven2org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2-sources.jar"
+                ],
+                "sha256": "d8091fc791e3027dd72e51f0dabcd387f27dba8fffa79511edea29f33213a8a8"
+            },
+            {
+                "coord": "org.hamcrest:hamcrest-core:1.3",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+                    "https://repo1.maven.org/maven2org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                ],
+                "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+            },
+            {
+                "coord": "org.hamcrest:hamcrest-core:jar:sources:1.3",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+                    "https://repo1.maven.org/maven2org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                ],
+                "sha256": "e223d2d8fbafd66057a8848cc94222d63c3cedd652cc48eddc0ab5c39c0f84df"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71.jar"
+                ],
+                "sha256": "974f8a9b7bfce3d730a86efe0eab219a72621e8530f91e30c89f400ba98092ec"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71-sources.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71-sources.jar"
+                ],
+                "sha256": "d96d223a0b60bc72c3ed15c46595ee29e08721dd69317f26136b57a5032e2561"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib-js:1.3.50",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50.jar"
+                ],
+                "sha256": "1a233957448af83a3987f63b22b8dfae16cf757b7542c00dd7890f7ecb8caec0"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib-js:jar:sources:1.3.50",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50-sources.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlin/kotlin-stdlib-js/1.3.50/kotlin-stdlib-js-1.3.50-sources.jar"
+                ],
+                "sha256": "8d1a26f30962502652ec0e94fcfc3ca6187bd5776766f0ee8278a61878e973cd"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71.jar",
+                "directDependencies": [
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71.jar"
+                ],
+                "sha256": "5ace22b102a96425e4ac44e0558b927f3857b56a33cbc289cf1b70aee645e6a7"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71-sources.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71-sources.jar"
+                ],
+                "sha256": "9f87f5d950499926672647f030a3d4caad71a4810b69a6ac5da791dd6cce676c"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:atomicfu-js:0.13.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:1.3.50"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:1.3.50",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1.jar"
+                ],
+                "sha256": "72049b2202411929a767b233e97bca3d2cfdc5a5ab6e7d1814919d69e8f84fea"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:atomicfu-js:jar:sources:0.13.1",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:jar:sources:1.3.50"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:jar:sources:1.3.50"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1-sources.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/atomicfu-js/0.13.1/atomicfu-js-0.13.1-sources.jar"
+                ],
+                "sha256": "351044fd6d7e71ac417879d86148d024885ff6db41ed58e9417ee44119608543"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:1.3.50"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:1.3.50",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2.jar"
+                ],
+                "sha256": "167a1d85f5a2c08bb2cb8c5732b7f470670d147eec0c2b914aa370445c399b96"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:jar:sources:1.3.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:jar:sources:1.3.50"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-js:jar:sources:1.3.50"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2-sources.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/kotlinx-coroutines-core-js/1.3.2/kotlinx-coroutines-core-js-1.3.2-sources.jar"
+                ],
+                "sha256": "7d5db6a2423956a008d546e914eab41adaae713cd581b0a102f10b9683b1875c"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6.jar"
+                ],
+                "sha256": "94ee657780d9205fb1a8702f5808149de45aa550a19bf76eac8dd3fb50319947"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:sources:1.3.6",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6-sources.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.6/kotlinx-coroutines-core-1.3.6-sources.jar"
+                ],
+                "sha256": "630943b4abcf247362b2d6c21726274eda0132aa94211ae103dd147f222ee4d8"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.3.6",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6.jar",
+                "directDependencies": [
+                    "net.java.dev.jna:jna:5.5.0",
+                    "net.java.dev.jna:jna-platform:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6"
+                ],
+                "dependencies": [
+                    "net.java.dev.jna:jna:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71",
+                    "net.java.dev.jna:jna-platform:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6",
+                    "org.jetbrains:annotations:13.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6.jar"
+                ],
+                "sha256": "fc96d8dc62a56fcc9e661076a12e2c2af12f8192b5a0976bfeac4879e5445a16"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-debug:jar:sources:1.3.6",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6-sources.jar",
+                "directDependencies": [
+                    "net.java.dev.jna:jna:jar:sources:5.5.0",
+                    "net.java.dev.jna:jna-platform:jar:sources:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:sources:1.3.6"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "net.java.dev.jna:jna-platform:jar:sources:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "net.java.dev.jna:jna:jar:sources:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:sources:1.3.6"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6-sources.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-debug/1.3.6/kotlinx-coroutines-debug-1.3.6-sources.jar"
+                ],
+                "sha256": "12fec3b5a1d5af37bf9e739da02090f7dc4a2cf4265c7f684f32a30dc55c44cb"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.6",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.3.6"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.3.6",
+                    "net.java.dev.jna:jna:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71",
+                    "net.java.dev.jna:jna-platform:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6",
+                    "org.jetbrains:annotations:13.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6.jar"
+                ],
+                "sha256": "1bb8ee075744b05f1772eb48e206eae6d514ce70499dc462e0c1b907361be15a"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-coroutines-test:jar:sources:1.3.6",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:sources:1.3.6",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-debug:jar:sources:1.3.6"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "net.java.dev.jna:jna-platform:jar:sources:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "net.java.dev.jna:jna:jar:sources:5.5.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:sources:1.3.6",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-debug:jar:sources:1.3.6"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data//org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6-sources.jar",
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.3.6/kotlinx-coroutines-test-1.3.6-sources.jar"
+                ],
+                "sha256": "2252befcd61ad8456ab8cef1b601bdd1e52fc911489a8badafddebf521bda121"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.1.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar"
+                ],
+                "sha256": "9753bb39efef35957c5c15df9a3cb769aabf2cdfa74b47afcb7760e5146be3b5"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-metadata-jvm:jar:sources:0.1.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0-sources.jar"
+                ],
+                "sha256": "a2cdb2a6a90a199addb8f312e3d5ab12b4626573f22b076176cc1d09999d6e78"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.14.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0.jar"
+                ],
+                "sha256": "682cbf020fcd0d3a047d9fe9e21c681f02daf0aa3a587f36ac26d4c435d28bee"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-serialization-runtime:jar:sources:0.14.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0-sources.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:jar:sources:1.3.71",
+                    "org.jetbrains:annotations:jar:sources:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib:jar:sources:1.3.71"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0-sources.jar"
+                ],
+                "sha256": "4ed07daaf4e69f601420f9b009363d128b717e4f8877cc6e241d6fbcae58762b"
+            },
+            {
+                "coord": "org.jetbrains:annotations:13.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/annotations/13.0/annotations-13.0.jar"
+                ],
+                "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+            },
+            {
+                "coord": "org.jetbrains:annotations:jar:sources:13.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/jetbrains/annotations/13.0/annotations-13.0-sources.jar"
+                ],
+                "sha256": "42a5e144b8e81d50d6913d1007b695e62e614705268d8cf9f13dbdc478c2c68e"
+            },
+            {
+                "coord": "org.ow2.asm:asm-analysis:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar",
+                "directDependencies": [
+                    "org.ow2.asm:asm-tree:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm-tree:7.0",
+                    "org.ow2.asm:asm:7.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar"
+                ],
+                "sha256": "e981f8f650c4d900bb033650b18e122fa6b161eadd5f88978d08751f72ee8474"
+            },
+            {
+                "coord": "org.ow2.asm:asm-analysis:jar:sources:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0-sources.jar",
+                "directDependencies": [
+                    "org.ow2.asm:asm-tree:jar:sources:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm-tree:jar:sources:7.0",
+                    "org.ow2.asm:asm:jar:sources:7.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0-sources.jar"
+                ],
+                "sha256": "57bdf5b407dc122b8f4118e2fbf686719c81f6b7c97598e17ce7a456ea151866"
+            },
+            {
+                "coord": "org.ow2.asm:asm-commons:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar",
+                "directDependencies": [
+                    "org.ow2.asm:asm:7.0",
+                    "org.ow2.asm:asm-analysis:7.0",
+                    "org.ow2.asm:asm-tree:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm-analysis:7.0",
+                    "org.ow2.asm:asm-tree:7.0",
+                    "org.ow2.asm:asm:7.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar"
+                ],
+                "sha256": "fed348ef05958e3e846a3ac074a12af5f7936ef3d21ce44a62c4fa08a771927d"
+            },
+            {
+                "coord": "org.ow2.asm:asm-commons:jar:sources:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-commons/7.0/asm-commons-7.0-sources.jar",
+                "directDependencies": [
+                    "org.ow2.asm:asm:jar:sources:7.0",
+                    "org.ow2.asm:asm-analysis:jar:sources:7.0",
+                    "org.ow2.asm:asm-tree:jar:sources:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm-analysis:jar:sources:7.0",
+                    "org.ow2.asm:asm-tree:jar:sources:7.0",
+                    "org.ow2.asm:asm:jar:sources:7.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-commons/7.0/asm-commons-7.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-commons/7.0/asm-commons-7.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm-commons/7.0/asm-commons-7.0-sources.jar"
+                ],
+                "sha256": "7076b9f1cd3fdae003447b9fd546290b9ab76e34f147b2bf0b981ddae86f7053"
+            },
+            {
+                "coord": "org.ow2.asm:asm-tree:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar",
+                "directDependencies": [
+                    "org.ow2.asm:asm:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm:7.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar"
+                ],
+                "sha256": "cfd7a0874f9de36a999c127feeadfbfe6e04d4a71ee954d7af3d853f0be48a6c"
+            },
+            {
+                "coord": "org.ow2.asm:asm-tree:jar:sources:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-tree/7.0/asm-tree-7.0-sources.jar",
+                "directDependencies": [
+                    "org.ow2.asm:asm:jar:sources:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm:jar:sources:7.0"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-tree/7.0/asm-tree-7.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm-tree/7.0/asm-tree-7.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm-tree/7.0/asm-tree-7.0-sources.jar"
+                ],
+                "sha256": "8888c88a9889b1b413d90e440b6b9c894e8d31632a473bd70e683645aba382dd"
+            },
+            {
+                "coord": "org.ow2.asm:asm:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm/7.0/asm-7.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm/7.0/asm-7.0.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm/7.0/asm-7.0.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm/7.0/asm-7.0.jar"
+                ],
+                "sha256": "b88ef66468b3c978ad0c97fd6e90979e56155b4ac69089ba7a44e9aa7ffe9acf"
+            },
+            {
+                "coord": "org.ow2.asm:asm:jar:sources:7.0",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm/7.0/asm-7.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm/7.0/asm-7.0-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/ow2/asm/asm/7.0/asm-7.0-sources.jar",
+                    "https://repo1.maven.org/maven2org/ow2/asm/asm/7.0/asm-7.0-sources.jar"
+                ],
+                "sha256": "51a538468a788fa543e80e6bccbe05d2a738fa0da553b710a1fd8ed574504982"
+            },
+            {
+                "coord": "org.pantsbuild:jarjar:1.7.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.jar",
+                "directDependencies": [
+                    "org.apache.ant:ant:1.9.9",
+                    "org.apache.maven:maven-plugin-api:3.3.9",
+                    "org.ow2.asm:asm:7.0",
+                    "org.ow2.asm:asm-commons:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm-tree:7.0",
+                    "org.apache.maven:maven-plugin-api:3.3.9",
+                    "org.ow2.asm:asm:7.0",
+                    "org.apache.maven:maven-model:3.3.9",
+                    "org.ow2.asm:asm-commons:7.0",
+                    "org.apache.commons:commons-lang3:3.4",
+                    "javax.enterprise:cdi-api:1.0",
+                    "org.codehaus.plexus:plexus-component-annotations:1.5.5",
+                    "org.apache.maven:maven-artifact:3.3.9",
+                    "org.codehaus.plexus:plexus-utils:3.0.22",
+                    "org.apache.ant:ant-launcher:1.9.9",
+                    "javax.inject:javax.inject:1",
+                    "org.apache.ant:ant:1.9.9",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2",
+                    "org.codehaus.plexus:plexus-classworlds:2.5.2",
+                    "javax.annotation:jsr250-api:1.0",
+                    "org.ow2.asm:asm-analysis:7.0",
+                    "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.jar",
+                    "https://repo1.maven.org/maven2org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.jar"
+                ],
+                "sha256": "0706a455e17b67718abe212e3a77688bbe8260852fc74e3e836d9f2e76d91c27"
+            },
+            {
+                "coord": "org.pantsbuild:jarjar:jar:sources:1.7.2",
+                "file": "v1/https/maven-central.storage.googleapis.com/repos/central/data/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2-sources.jar",
+                "directDependencies": [
+                    "org.apache.ant:ant:jar:sources:1.9.9",
+                    "org.apache.maven:maven-plugin-api:jar:sources:3.3.9",
+                    "org.ow2.asm:asm:jar:sources:7.0",
+                    "org.ow2.asm:asm-commons:jar:sources:7.0"
+                ],
+                "dependencies": [
+                    "org.ow2.asm:asm-commons:jar:sources:7.0",
+                    "org.ow2.asm:asm-tree:jar:sources:7.0",
+                    "org.codehaus.plexus:plexus-utils:jar:sources:3.0.22",
+                    "org.apache.ant:ant:jar:sources:1.9.9",
+                    "org.codehaus.plexus:plexus-classworlds:jar:sources:2.5.2",
+                    "javax.inject:javax.inject:jar:sources:1",
+                    "org.apache.maven:maven-plugin-api:jar:sources:3.3.9",
+                    "org.eclipse.sisu:org.eclipse.sisu.inject:jar:sources:0.3.2",
+                    "org.apache.ant:ant-launcher:jar:sources:1.9.9",
+                    "org.codehaus.plexus:plexus-component-annotations:jar:sources:1.5.5",
+                    "org.apache.maven:maven-model:jar:sources:3.3.9",
+                    "org.ow2.asm:asm-analysis:jar:sources:7.0",
+                    "org.apache.commons:commons-lang3:jar:sources:3.4",
+                    "javax.enterprise:cdi-api:jar:sources:1.0",
+                    "org.ow2.asm:asm:jar:sources:7.0",
+                    "org.apache.maven:maven-artifact:jar:sources:3.3.9",
+                    "javax.annotation:jsr250-api:jar:sources:1.0",
+                    "org.eclipse.sisu:org.eclipse.sisu.plexus:jar:sources:0.3.2"
+                ],
+                "url": "https://maven-central.storage.googleapis.com/repos/central/data/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2-sources.jar",
+                "mirror_urls": [
+                    "https://maven-central.storage.googleapis.com/repos/central/data/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2-sources.jar",
+                    "https://repo1.maven.org/maven2org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2-sources.jar"
+                ],
+                "sha256": "69e0182465b18189294c6a3e3808595ad820b0b5bc2170324b2f6bb37fb1499a"
+            }
+        ],
+        "version": "0.1.0",
+        "__AUTOGENERATED_FILE_DO_NOT_MODIFY_THIS_FILE_MANUALLY": 700277071
+    }
+}

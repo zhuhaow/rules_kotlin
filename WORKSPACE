@@ -20,6 +20,9 @@ kt_download_local_dev_dependencies()
 load("//kotlin:kotlin.bzl", "kotlin_repositories", "kt_register_toolchains")
 kotlin_repositories()
 kt_register_toolchains()
+load("@kotlin_rules_maven//:defs.bzl", "pinned_maven_install")
+
+pinned_maven_install()
 
 # Creates toolchain configuration for remote execution with BuildKite CI
 # for rbe_ubuntu1604
