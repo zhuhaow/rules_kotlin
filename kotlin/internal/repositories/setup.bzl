@@ -51,7 +51,7 @@ def kt_configure():
             "https://maven-central.storage.googleapis.com/repos/central/data/",
             "https://repo1.maven.org/maven2",
         ],
-        maven_install_json = "//:kotlin_rules_maven_install.json",
+        maven_install_json = "@//:kotlin_rules_maven_install.json",
     )
 
     rules_proto_dependencies()
